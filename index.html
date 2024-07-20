@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button Example</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <p></p>
+    <br />
+    <button class="box" onclick="number('1')">1</button>
+    <button class="box" onclick="number('2')">2</button>
+    <button class="box" onclick="number('3')">3</button>
+    <button class="box-orange" onclick="number('+')">+</button>
+    <br />
+    <button class="box" onclick="number('4')">4</button>
+    <button class="box" onclick="number('5')">5</button>
+    <button class="box" onclick="number('6')">6</button>
+    <button class="box-orange" onclick="number('-')">-</button>
+    <br />
+    <button class="box" onclick="number('7')">7</button>
+    <button class="box" onclick="number('8')">8</button>
+    <button class="box" onclick="number('9')">9</button>
+    <button class="box-orange" onclick="number('*')">*</button>
+    <br />
+    <button class="box" onclick="number('0')">0</button>
+    <button class="box" onclick="number('.')">.</button>
+    <button class="box" onclick="number('/')">/</button>
+    <button
+      class="box-orange"
+      onclick="result = eval(result)
+    display()"
+    >
+      =
+    </button>
+    <br />
+    <button
+      class="box-clear"
+      onclick="result=''
+    display()"
+    >
+      Clear
+    </button>
+
+    <script src="index.js"></script>
+  </body>
+</html>
