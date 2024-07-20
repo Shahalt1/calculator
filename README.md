@@ -1,3 +1,4 @@
+
 # Calculator App
 
 ## Overview
@@ -24,3 +25,6 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 
 ## License
 This project is licensed under the MIT License.
+
+-------------
+![Screenshot 2024-07-20 154220](https://github.com/user-attachments/assets/6a996707-48be-4ad3-973e-b95e12ea65f2)
